@@ -1,12 +1,14 @@
 import Dependencies._
 
+ThisBuild / scalaVersion := "2.12.7"
+ThisBuild / organization := "com.malsolo"
+
 lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
-      organization := "com.example",
-      scalaVersion := "2.12.5",
       version      := "0.1.0-SNAPSHOT"
     )),
-    name := "Hello",
+    name := "finagle-journey",
     libraryDependencies += scalaTest % Test
   )
+
