@@ -1,7 +1,5 @@
 package com.malsolo.finagle.journey.serversandfilters
 
-import com.malsolo.finagle.journey.quickstart.Client.client
-import com.twitter.finagle.util.DefaultTimer
 import com.twitter.finagle.{Http, Service, SimpleFilter, http}
 import com.twitter.util._
 
